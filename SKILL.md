@@ -1,7 +1,10 @@
 ---
 name: openclaw-agent-builder
 description: Use when creating new OpenClaw agents, modifying agent configurations, or setting up agent workspaces. Triggers: need new isolated agent session, want multi-agent routing, setting up dedicated workspace, configuring agent-specific tools/models, creating AGENTS.md/SOUL.md/TOOLS.md bootstrap files, configuring sessions or skills for an agent.
-metadata: { "openclaw": { "emoji": "🦞", "homepage": "https://docs.openclaw.ai/concepts/agent.md" } }
+metadata:
+  openclaw:
+    emoji: "🦞"
+    homepage: "https://docs.openclaw.ai/concepts/agent.md"
 ---
 
 # OpenClaw Agent Builder
