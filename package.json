@@ -1,0 +1,47 @@
+{
+  "name": "openclaw-agent-builder",
+  "version": "1.0.0",
+  "description": "Complete guide for creating and configuring OpenClaw agents",
+  "author": "OpenClaw Community",
+  "license": "MIT",
+  "homepage": "https://docs.openclaw.ai/concepts/agent.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openclaw/openclaw"
+  },
+  "keywords": [
+    "openclaw",
+    "agent",
+    "configuration",
+    "workspace",
+    "bootstrap",
+    "multi-agent"
+  ],
+  "category": "development",
+  "difficulty": "intermediate",
+  "installSize": "~15KB",
+  "requirements": {
+    "openclaw": ">=1.0.0",
+    "node": ">=22.0.0"
+  },
+  "features": [
+    "Agent directory structure guide",
+    "Bootstrap file templates (AGENTS.md, SOUL.md, TOOLS.md, USER.md)",
+    "Multi-agent routing configuration",
+    "Session management instructions",
+    "Skills system integration",
+    "Model configuration and failover",
+    "Sandbox mode setup",
+    "Memory system guidance",
+    "Heartbeat mechanism configuration",
+    "Hook points documentation"
+  ],
+  "usage": {
+    "examples": [
+      "Create a new dedicated agent for finance tasks",
+      "Configure multi-agent routing for isolated sessions",
+      "Set up agent-specific model and tool configurations",
+      "Create custom skills for agent workspace"
+    ]
+  }
+}
